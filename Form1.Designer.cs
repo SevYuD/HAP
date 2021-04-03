@@ -1,7 +1,7 @@
 ﻿
 namespace HAP
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,103 +30,103 @@ namespace HAP
         private void InitializeComponent()
         {
             this.nameBox = new System.Windows.Forms.TextBox();
-            this.SurnameBox = new System.Windows.Forms.TextBox();
-            this.otchestvoBox = new System.Windows.Forms.TextBox();
+            this.otchBox = new System.Windows.Forms.TextBox();
+            this.surBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.ageBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.IMBox = new System.Windows.Forms.ComboBox();
+            this.genBox = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.povtIMBox = new System.Windows.Forms.ComboBox();
+            this.sdBox = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.imtBox = new System.Windows.Forms.TextBox();
+            this.smockBox = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.hbBox = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.leyBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.glukBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.soeBox = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.protBox = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.bilBox = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.asatBox = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.creatineBox = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.il10Box = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.lpnvBox = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.lpBox = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.triglizBox = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.atBox = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.skfBox = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.kcpBox = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.nt18 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.kdrlgBox = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.tmpgBox = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.tzslgBox = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.fvBox = new System.Windows.Forms.TextBox();
+            this.ttgBox = new System.Windows.Forms.TextBox();
+            this.ishemiaBox = new System.Windows.Forms.ComboBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.stHCNBox = new System.Windows.Forms.ComboBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.fkchnBox = new System.Windows.Forms.ComboBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.depresBox = new System.Windows.Forms.ComboBox();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.t4Box = new System.Windows.Forms.TextBox();
+            this.alphaBox = new System.Windows.Forms.TextBox();
+            this.hcObchBox = new System.Windows.Forms.TextBox();
+            this.il1Box = new System.Windows.Forms.TextBox();
+            this.il8Box = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
-            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.il4Box = new System.Windows.Forms.TextBox();
             this.label42 = new System.Windows.Forms.Label();
-            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.il6Box = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.gamaBox = new System.Windows.Forms.TextBox();
             this.label44 = new System.Windows.Forms.Label();
-            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.kdrpg = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.fnoBox = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
-            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.aldesteronBox = new System.Windows.Forms.TextBox();
             this.label47 = new System.Windows.Forms.Label();
-            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.leptinBox = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.adiponektinBox = new System.Windows.Forms.TextBox();
+            this.alatBox = new System.Windows.Forms.TextBox();
             this.textBox38 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -138,19 +138,19 @@ namespace HAP
             this.nameBox.Size = new System.Drawing.Size(121, 23);
             this.nameBox.TabIndex = 0;
             // 
-            // SurnameBox
+            // otchBox
             // 
-            this.SurnameBox.Location = new System.Drawing.Point(656, 27);
-            this.SurnameBox.Name = "SurnameBox";
-            this.SurnameBox.Size = new System.Drawing.Size(121, 23);
-            this.SurnameBox.TabIndex = 1;
+            this.otchBox.Location = new System.Drawing.Point(656, 27);
+            this.otchBox.Name = "otchBox";
+            this.otchBox.Size = new System.Drawing.Size(121, 23);
+            this.otchBox.TabIndex = 1;
             // 
-            // otchestvoBox
+            // surBox
             // 
-            this.otchestvoBox.Location = new System.Drawing.Point(402, 27);
-            this.otchestvoBox.Name = "otchestvoBox";
-            this.otchestvoBox.Size = new System.Drawing.Size(121, 23);
-            this.otchestvoBox.TabIndex = 2;
+            this.surBox.Location = new System.Drawing.Point(402, 27);
+            this.surBox.Name = "surBox";
+            this.surBox.Size = new System.Drawing.Size(121, 23);
+            this.surBox.TabIndex = 2;
             // 
             // label1
             // 
@@ -204,17 +204,17 @@ namespace HAP
             this.label5.TabIndex = 8;
             this.label5.Text = "Повт ИМ:";
             // 
-            // IMBox
+            // genBox
             // 
-            this.IMBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.IMBox.FormattingEnabled = true;
-            this.IMBox.Items.AddRange(new object[] {
+            this.genBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.genBox.FormattingEnabled = true;
+            this.genBox.Items.AddRange(new object[] {
             "Нет",
             "Да"});
-            this.IMBox.Location = new System.Drawing.Point(132, 82);
-            this.IMBox.Name = "IMBox";
-            this.IMBox.Size = new System.Drawing.Size(121, 23);
-            this.IMBox.TabIndex = 9;
+            this.genBox.Location = new System.Drawing.Point(132, 82);
+            this.genBox.Name = "genBox";
+            this.genBox.Size = new System.Drawing.Size(121, 23);
+            this.genBox.TabIndex = 9;
             // 
             // label7
             // 
@@ -225,29 +225,29 @@ namespace HAP
             this.label7.TabIndex = 11;
             this.label7.Text = "Пол:";
             // 
-            // comboBox2
+            // povtIMBox
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.povtIMBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.povtIMBox.FormattingEnabled = true;
+            this.povtIMBox.Items.AddRange(new object[] {
             "Мужской",
             "Женский"});
-            this.comboBox2.Location = new System.Drawing.Point(1170, 27);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 23);
-            this.comboBox2.TabIndex = 13;
+            this.povtIMBox.Location = new System.Drawing.Point(1170, 27);
+            this.povtIMBox.Name = "povtIMBox";
+            this.povtIMBox.Size = new System.Drawing.Size(121, 23);
+            this.povtIMBox.TabIndex = 13;
             // 
-            // comboBox3
+            // sdBox
             // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.sdBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.sdBox.FormattingEnabled = true;
+            this.sdBox.Items.AddRange(new object[] {
             "Нет",
             "Есть"});
-            this.comboBox3.Location = new System.Drawing.Point(402, 82);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 23);
-            this.comboBox3.TabIndex = 15;
+            this.sdBox.Location = new System.Drawing.Point(402, 82);
+            this.sdBox.Name = "sdBox";
+            this.sdBox.Size = new System.Drawing.Size(121, 23);
+            this.sdBox.TabIndex = 15;
             // 
             // label8
             // 
@@ -267,24 +267,24 @@ namespace HAP
             this.label9.TabIndex = 17;
             this.label9.Text = "ИМТ:";
             // 
-            // textBox1
+            // imtBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(132, 137);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 23);
-            this.textBox1.TabIndex = 16;
+            this.imtBox.Location = new System.Drawing.Point(132, 137);
+            this.imtBox.Name = "imtBox";
+            this.imtBox.Size = new System.Drawing.Size(121, 23);
+            this.imtBox.TabIndex = 16;
             // 
-            // comboBox1
+            // smockBox
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.smockBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.smockBox.FormattingEnabled = true;
+            this.smockBox.Items.AddRange(new object[] {
             "Нет",
             "Да"});
-            this.comboBox1.Location = new System.Drawing.Point(402, 139);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox1.TabIndex = 19;
+            this.smockBox.Location = new System.Drawing.Point(402, 139);
+            this.smockBox.Name = "smockBox";
+            this.smockBox.Size = new System.Drawing.Size(121, 23);
+            this.smockBox.TabIndex = 19;
             // 
             // label11
             // 
@@ -304,12 +304,12 @@ namespace HAP
             this.label12.TabIndex = 21;
             this.label12.Text = "Hb:";
             // 
-            // textBox2
+            // hbBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(656, 139);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 23);
-            this.textBox2.TabIndex = 20;
+            this.hbBox.Location = new System.Drawing.Point(656, 139);
+            this.hbBox.Name = "hbBox";
+            this.hbBox.Size = new System.Drawing.Size(121, 23);
+            this.hbBox.TabIndex = 20;
             // 
             // label13
             // 
@@ -320,12 +320,12 @@ namespace HAP
             this.label13.TabIndex = 23;
             this.label13.Text = "Лейкоциты:";
             // 
-            // textBox3
+            // leyBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(922, 134);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 23);
-            this.textBox3.TabIndex = 22;
+            this.leyBox.Location = new System.Drawing.Point(922, 134);
+            this.leyBox.Name = "leyBox";
+            this.leyBox.Size = new System.Drawing.Size(121, 23);
+            this.leyBox.TabIndex = 22;
             // 
             // label6
             // 
@@ -336,12 +336,12 @@ namespace HAP
             this.label6.TabIndex = 25;
             this.label6.Text = "СОЭ:";
             // 
-            // textBox4
+            // glukBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(1170, 82);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(121, 23);
-            this.textBox4.TabIndex = 24;
+            this.glukBox.Location = new System.Drawing.Point(1170, 82);
+            this.glukBox.Name = "glukBox";
+            this.glukBox.Size = new System.Drawing.Size(121, 23);
+            this.glukBox.TabIndex = 24;
             // 
             // label10
             // 
@@ -352,12 +352,12 @@ namespace HAP
             this.label10.TabIndex = 27;
             this.label10.Text = "Глюкоза:";
             // 
-            // textBox5
+            // soeBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(922, 82);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(121, 23);
-            this.textBox5.TabIndex = 26;
+            this.soeBox.Location = new System.Drawing.Point(922, 82);
+            this.soeBox.Name = "soeBox";
+            this.soeBox.Size = new System.Drawing.Size(121, 23);
+            this.soeBox.TabIndex = 26;
             // 
             // label14
             // 
@@ -368,12 +368,12 @@ namespace HAP
             this.label14.TabIndex = 29;
             this.label14.Text = "О. Белок:";
             // 
-            // textBox6
+            // protBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(656, 82);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(121, 23);
-            this.textBox6.TabIndex = 28;
+            this.protBox.Location = new System.Drawing.Point(656, 82);
+            this.protBox.Name = "protBox";
+            this.protBox.Size = new System.Drawing.Size(121, 23);
+            this.protBox.TabIndex = 28;
             // 
             // label15
             // 
@@ -384,12 +384,12 @@ namespace HAP
             this.label15.TabIndex = 31;
             this.label15.Text = "Билирубин:";
             // 
-            // textBox7
+            // bilBox
             // 
-            this.textBox7.Location = new System.Drawing.Point(132, 199);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(121, 23);
-            this.textBox7.TabIndex = 30;
+            this.bilBox.Location = new System.Drawing.Point(132, 199);
+            this.bilBox.Name = "bilBox";
+            this.bilBox.Size = new System.Drawing.Size(121, 23);
+            this.bilBox.TabIndex = 30;
             // 
             // label16
             // 
@@ -409,12 +409,12 @@ namespace HAP
             this.label17.TabIndex = 35;
             this.label17.Text = "АСАТ:";
             // 
-            // textBox9
+            // asatBox
             // 
-            this.textBox9.Location = new System.Drawing.Point(656, 196);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(121, 23);
-            this.textBox9.TabIndex = 34;
+            this.asatBox.Location = new System.Drawing.Point(656, 196);
+            this.asatBox.Name = "asatBox";
+            this.asatBox.Size = new System.Drawing.Size(121, 23);
+            this.asatBox.TabIndex = 34;
             // 
             // label18
             // 
@@ -425,12 +425,12 @@ namespace HAP
             this.label18.TabIndex = 37;
             this.label18.Text = "Креатин:";
             // 
-            // textBox10
+            // creatineBox
             // 
-            this.textBox10.Location = new System.Drawing.Point(922, 194);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(121, 23);
-            this.textBox10.TabIndex = 36;
+            this.creatineBox.Location = new System.Drawing.Point(922, 194);
+            this.creatineBox.Name = "creatineBox";
+            this.creatineBox.Size = new System.Drawing.Size(121, 23);
+            this.creatineBox.TabIndex = 36;
             // 
             // label19
             // 
@@ -441,12 +441,12 @@ namespace HAP
             this.label19.TabIndex = 39;
             this.label19.Text = "ХС общ:";
             // 
-            // textBox11
+            // il10Box
             // 
-            this.textBox11.Location = new System.Drawing.Point(1169, 434);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(121, 23);
-            this.textBox11.TabIndex = 38;
+            this.il10Box.Location = new System.Drawing.Point(1169, 434);
+            this.il10Box.Name = "il10Box";
+            this.il10Box.Size = new System.Drawing.Size(121, 23);
+            this.il10Box.TabIndex = 38;
             // 
             // label20
             // 
@@ -457,12 +457,12 @@ namespace HAP
             this.label20.TabIndex = 41;
             this.label20.Text = "ЛПНВ:";
             // 
-            // textBox12
+            // lpnvBox
             // 
-            this.textBox12.Location = new System.Drawing.Point(132, 562);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(121, 23);
-            this.textBox12.TabIndex = 40;
+            this.lpnvBox.Location = new System.Drawing.Point(132, 562);
+            this.lpnvBox.Name = "lpnvBox";
+            this.lpnvBox.Size = new System.Drawing.Size(121, 23);
+            this.lpnvBox.TabIndex = 40;
             // 
             // label21
             // 
@@ -473,12 +473,12 @@ namespace HAP
             this.label21.TabIndex = 43;
             this.label21.Text = "ЛПВП:";
             // 
-            // textBox13
+            // lpBox
             // 
-            this.textBox13.Location = new System.Drawing.Point(1169, 255);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(121, 23);
-            this.textBox13.TabIndex = 42;
+            this.lpBox.Location = new System.Drawing.Point(1169, 255);
+            this.lpBox.Name = "lpBox";
+            this.lpBox.Size = new System.Drawing.Size(121, 23);
+            this.lpBox.TabIndex = 42;
             // 
             // label22
             // 
@@ -489,12 +489,12 @@ namespace HAP
             this.label22.TabIndex = 45;
             this.label22.Text = "Триглиц.:";
             // 
-            // textBox14
+            // triglizBox
             // 
-            this.textBox14.Location = new System.Drawing.Point(132, 260);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(121, 23);
-            this.textBox14.TabIndex = 44;
+            this.triglizBox.Location = new System.Drawing.Point(132, 260);
+            this.triglizBox.Name = "triglizBox";
+            this.triglizBox.Size = new System.Drawing.Size(121, 23);
+            this.triglizBox.TabIndex = 44;
             // 
             // label23
             // 
@@ -505,12 +505,12 @@ namespace HAP
             this.label23.TabIndex = 47;
             this.label23.Text = "Инд атерог.:";
             // 
-            // textBox15
+            // atBox
             // 
-            this.textBox15.Location = new System.Drawing.Point(402, 259);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(121, 23);
-            this.textBox15.TabIndex = 46;
+            this.atBox.Location = new System.Drawing.Point(402, 259);
+            this.atBox.Name = "atBox";
+            this.atBox.Size = new System.Drawing.Size(121, 23);
+            this.atBox.TabIndex = 46;
             // 
             // label24
             // 
@@ -521,12 +521,12 @@ namespace HAP
             this.label24.TabIndex = 49;
             this.label24.Text = "СКФ:";
             // 
-            // textBox16
+            // skfBox
             // 
-            this.textBox16.Location = new System.Drawing.Point(656, 260);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(121, 23);
-            this.textBox16.TabIndex = 48;
+            this.skfBox.Location = new System.Drawing.Point(656, 260);
+            this.skfBox.Name = "skfBox";
+            this.skfBox.Size = new System.Drawing.Size(121, 23);
+            this.skfBox.TabIndex = 48;
             // 
             // label25
             // 
@@ -537,12 +537,12 @@ namespace HAP
             this.label25.TabIndex = 51;
             this.label25.Text = "КсР (см):";
             // 
-            // textBox17
+            // kcpBox
             // 
-            this.textBox17.Location = new System.Drawing.Point(922, 259);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(121, 23);
-            this.textBox17.TabIndex = 50;
+            this.kcpBox.Location = new System.Drawing.Point(922, 259);
+            this.kcpBox.Name = "kcpBox";
+            this.kcpBox.Size = new System.Drawing.Size(121, 23);
+            this.kcpBox.TabIndex = 50;
             // 
             // label26
             // 
@@ -553,12 +553,12 @@ namespace HAP
             this.label26.TabIndex = 53;
             this.label26.Text = "ЛП (см):";
             // 
-            // textBox18
+            // nt18
             // 
-            this.textBox18.Location = new System.Drawing.Point(1169, 134);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(121, 23);
-            this.textBox18.TabIndex = 52;
+            this.nt18.Location = new System.Drawing.Point(1169, 134);
+            this.nt18.Name = "nt18";
+            this.nt18.Size = new System.Drawing.Size(121, 23);
+            this.nt18.TabIndex = 52;
             // 
             // label27
             // 
@@ -569,12 +569,12 @@ namespace HAP
             this.label27.TabIndex = 55;
             this.label27.Text = "КДРЛЖ:";
             // 
-            // textBox19
+            // kdrlgBox
             // 
-            this.textBox19.Location = new System.Drawing.Point(402, 562);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(121, 23);
-            this.textBox19.TabIndex = 54;
+            this.kdrlgBox.Location = new System.Drawing.Point(402, 562);
+            this.kdrlgBox.Name = "kdrlgBox";
+            this.kdrlgBox.Size = new System.Drawing.Size(121, 23);
+            this.kdrlgBox.TabIndex = 54;
             // 
             // label28
             // 
@@ -601,12 +601,12 @@ namespace HAP
             this.label29.TabIndex = 59;
             this.label29.Text = "ТМПЖ:";
             // 
-            // textBox21
+            // tmpgBox
             // 
-            this.textBox21.Location = new System.Drawing.Point(132, 319);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(121, 23);
-            this.textBox21.TabIndex = 58;
+            this.tmpgBox.Location = new System.Drawing.Point(132, 319);
+            this.tmpgBox.Name = "tmpgBox";
+            this.tmpgBox.Size = new System.Drawing.Size(121, 23);
+            this.tmpgBox.TabIndex = 58;
             // 
             // label30
             // 
@@ -617,12 +617,12 @@ namespace HAP
             this.label30.TabIndex = 61;
             this.label30.Text = "ТЗСЛЖ:";
             // 
-            // textBox22
+            // tzslgBox
             // 
-            this.textBox22.Location = new System.Drawing.Point(402, 319);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(121, 23);
-            this.textBox22.TabIndex = 60;
+            this.tzslgBox.Location = new System.Drawing.Point(402, 319);
+            this.tzslgBox.Name = "tzslgBox";
+            this.tzslgBox.Size = new System.Drawing.Size(121, 23);
+            this.tzslgBox.TabIndex = 60;
             // 
             // label31
             // 
@@ -633,31 +633,31 @@ namespace HAP
             this.label31.TabIndex = 63;
             this.label31.Text = "ФВ:";
             // 
-            // textBox23
+            // fvBox
             // 
-            this.textBox23.Location = new System.Drawing.Point(656, 319);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(121, 23);
-            this.textBox23.TabIndex = 62;
+            this.fvBox.Location = new System.Drawing.Point(656, 319);
+            this.fvBox.Name = "fvBox";
+            this.fvBox.Size = new System.Drawing.Size(121, 23);
+            this.fvBox.TabIndex = 62;
             // 
-            // textBox24
+            // ttgBox
             // 
-            this.textBox24.Location = new System.Drawing.Point(402, 379);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(121, 23);
-            this.textBox24.TabIndex = 64;
+            this.ttgBox.Location = new System.Drawing.Point(402, 379);
+            this.ttgBox.Name = "ttgBox";
+            this.ttgBox.Size = new System.Drawing.Size(121, 23);
+            this.ttgBox.TabIndex = 64;
             // 
-            // comboBox4
+            // ishemiaBox
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.ishemiaBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ishemiaBox.FormattingEnabled = true;
+            this.ishemiaBox.Items.AddRange(new object[] {
             "Нет",
             "Есть"});
-            this.comboBox4.Location = new System.Drawing.Point(922, 314);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 23);
-            this.comboBox4.TabIndex = 67;
+            this.ishemiaBox.Location = new System.Drawing.Point(922, 314);
+            this.ishemiaBox.Name = "ishemiaBox";
+            this.ishemiaBox.Size = new System.Drawing.Size(121, 23);
+            this.ishemiaBox.TabIndex = 67;
             // 
             // label33
             // 
@@ -668,18 +668,18 @@ namespace HAP
             this.label33.TabIndex = 66;
             this.label33.Text = "Ишемия:";
             // 
-            // comboBox5
+            // stHCNBox
             // 
-            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.stHCNBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.stHCNBox.FormattingEnabled = true;
+            this.stHCNBox.Items.AddRange(new object[] {
             "I",
             "IIA",
             "IIБI"});
-            this.comboBox5.Location = new System.Drawing.Point(1169, 314);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 23);
-            this.comboBox5.TabIndex = 69;
+            this.stHCNBox.Location = new System.Drawing.Point(1169, 314);
+            this.stHCNBox.Name = "stHCNBox";
+            this.stHCNBox.Size = new System.Drawing.Size(121, 23);
+            this.stHCNBox.TabIndex = 69;
             // 
             // label34
             // 
@@ -690,19 +690,19 @@ namespace HAP
             this.label34.TabIndex = 68;
             this.label34.Text = "стадия ХСН:";
             // 
-            // comboBox6
+            // fkchnBox
             // 
-            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.fkchnBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.fkchnBox.FormattingEnabled = true;
+            this.fkchnBox.Items.AddRange(new object[] {
             "I",
             "II",
             "III",
             "IV"});
-            this.comboBox6.Location = new System.Drawing.Point(1169, 499);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(121, 23);
-            this.comboBox6.TabIndex = 71;
+            this.fkchnBox.Location = new System.Drawing.Point(1169, 499);
+            this.fkchnBox.Name = "fkchnBox";
+            this.fkchnBox.Size = new System.Drawing.Size(121, 23);
+            this.fkchnBox.TabIndex = 71;
             // 
             // label35
             // 
@@ -713,17 +713,17 @@ namespace HAP
             this.label35.TabIndex = 70;
             this.label35.Text = "ФК СХН:";
             // 
-            // comboBox7
+            // depresBox
             // 
-            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.depresBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.depresBox.FormattingEnabled = true;
+            this.depresBox.Items.AddRange(new object[] {
             "Нет",
             "Есть"});
-            this.comboBox7.Location = new System.Drawing.Point(132, 379);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 23);
-            this.comboBox7.TabIndex = 73;
+            this.depresBox.Location = new System.Drawing.Point(132, 379);
+            this.depresBox.Name = "depresBox";
+            this.depresBox.Size = new System.Drawing.Size(121, 23);
+            this.depresBox.TabIndex = 73;
             // 
             // label36
             // 
@@ -779,40 +779,40 @@ namespace HAP
             this.label41.TabIndex = 82;
             this.label41.Text = "ИЛ 1 бета пг/мл:";
             // 
-            // textBox25
+            // t4Box
             // 
-            this.textBox25.Location = new System.Drawing.Point(656, 379);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(121, 23);
-            this.textBox25.TabIndex = 84;
+            this.t4Box.Location = new System.Drawing.Point(656, 379);
+            this.t4Box.Name = "t4Box";
+            this.t4Box.Size = new System.Drawing.Size(121, 23);
+            this.t4Box.TabIndex = 84;
             // 
-            // textBox26
+            // alphaBox
             // 
-            this.textBox26.Location = new System.Drawing.Point(922, 379);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(121, 23);
-            this.textBox26.TabIndex = 85;
+            this.alphaBox.Location = new System.Drawing.Point(922, 379);
+            this.alphaBox.Name = "alphaBox";
+            this.alphaBox.Size = new System.Drawing.Size(121, 23);
+            this.alphaBox.TabIndex = 85;
             // 
-            // textBox27
+            // hcObchBox
             // 
-            this.textBox27.Location = new System.Drawing.Point(1170, 190);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(121, 23);
-            this.textBox27.TabIndex = 86;
+            this.hcObchBox.Location = new System.Drawing.Point(1170, 190);
+            this.hcObchBox.Name = "hcObchBox";
+            this.hcObchBox.Size = new System.Drawing.Size(121, 23);
+            this.hcObchBox.TabIndex = 86;
             // 
-            // textBox28
+            // il1Box
             // 
-            this.textBox28.Location = new System.Drawing.Point(132, 439);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(121, 23);
-            this.textBox28.TabIndex = 87;
+            this.il1Box.Location = new System.Drawing.Point(132, 439);
+            this.il1Box.Name = "il1Box";
+            this.il1Box.Size = new System.Drawing.Size(121, 23);
+            this.il1Box.TabIndex = 87;
             // 
-            // textBox29
+            // il8Box
             // 
-            this.textBox29.Location = new System.Drawing.Point(402, 439);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(121, 23);
-            this.textBox29.TabIndex = 89;
+            this.il8Box.Location = new System.Drawing.Point(402, 439);
+            this.il8Box.Name = "il8Box";
+            this.il8Box.Size = new System.Drawing.Size(121, 23);
+            this.il8Box.TabIndex = 89;
             // 
             // label32
             // 
@@ -823,12 +823,12 @@ namespace HAP
             this.label32.TabIndex = 88;
             this.label32.Text = "ИЛ-8, пг/мл:";
             // 
-            // textBox30
+            // il4Box
             // 
-            this.textBox30.Location = new System.Drawing.Point(656, 439);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(121, 23);
-            this.textBox30.TabIndex = 91;
+            this.il4Box.Location = new System.Drawing.Point(656, 439);
+            this.il4Box.Name = "il4Box";
+            this.il4Box.Size = new System.Drawing.Size(121, 23);
+            this.il4Box.TabIndex = 91;
             // 
             // label42
             // 
@@ -839,12 +839,12 @@ namespace HAP
             this.label42.TabIndex = 90;
             this.label42.Text = "ИЛ-4, пг/мл:";
             // 
-            // textBox31
+            // il6Box
             // 
-            this.textBox31.Location = new System.Drawing.Point(922, 434);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(121, 23);
-            this.textBox31.TabIndex = 93;
+            this.il6Box.Location = new System.Drawing.Point(922, 434);
+            this.il6Box.Name = "il6Box";
+            this.il6Box.Size = new System.Drawing.Size(121, 23);
+            this.il6Box.TabIndex = 93;
             // 
             // label43
             // 
@@ -855,12 +855,12 @@ namespace HAP
             this.label43.TabIndex = 92;
             this.label43.Text = "ИЛ-6, пг/мл:";
             // 
-            // textBox32
+            // gamaBox
             // 
-            this.textBox32.Location = new System.Drawing.Point(1169, 379);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(121, 23);
-            this.textBox32.TabIndex = 95;
+            this.gamaBox.Location = new System.Drawing.Point(1169, 379);
+            this.gamaBox.Name = "gamaBox";
+            this.gamaBox.Size = new System.Drawing.Size(121, 23);
+            this.gamaBox.TabIndex = 95;
             // 
             // label44
             // 
@@ -871,12 +871,12 @@ namespace HAP
             this.label44.TabIndex = 94;
             this.label44.Text = "ИЛ-10, пг/мл:";
             // 
-            // textBox33
+            // kdrpg
             // 
-            this.textBox33.Location = new System.Drawing.Point(656, 557);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(121, 23);
-            this.textBox33.TabIndex = 97;
+            this.kdrpg.Location = new System.Drawing.Point(656, 557);
+            this.kdrpg.Name = "kdrpg";
+            this.kdrpg.Size = new System.Drawing.Size(121, 23);
+            this.kdrpg.TabIndex = 97;
             // 
             // label45
             // 
@@ -887,12 +887,12 @@ namespace HAP
             this.label45.TabIndex = 96;
             this.label45.Text = "NT-proBNP, пг/мл:";
             // 
-            // textBox34
+            // fnoBox
             // 
-            this.textBox34.Location = new System.Drawing.Point(132, 499);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(121, 23);
-            this.textBox34.TabIndex = 99;
+            this.fnoBox.Location = new System.Drawing.Point(132, 499);
+            this.fnoBox.Name = "fnoBox";
+            this.fnoBox.Size = new System.Drawing.Size(121, 23);
+            this.fnoBox.TabIndex = 99;
             // 
             // label46
             // 
@@ -903,12 +903,12 @@ namespace HAP
             this.label46.TabIndex = 98;
             this.label46.Text = "ФНО альфа, пг/мл:";
             // 
-            // textBox35
+            // aldesteronBox
             // 
-            this.textBox35.Location = new System.Drawing.Point(402, 499);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(121, 23);
-            this.textBox35.TabIndex = 101;
+            this.aldesteronBox.Location = new System.Drawing.Point(402, 499);
+            this.aldesteronBox.Name = "aldesteronBox";
+            this.aldesteronBox.Size = new System.Drawing.Size(121, 23);
+            this.aldesteronBox.TabIndex = 101;
             // 
             // label47
             // 
@@ -919,21 +919,21 @@ namespace HAP
             this.label47.TabIndex = 100;
             this.label47.Text = "Альдостерон, пг/мл:";
             // 
-            // textBox36
+            // leptinBox
             // 
-            this.textBox36.Location = new System.Drawing.Point(656, 499);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(121, 23);
-            this.textBox36.TabIndex = 103;
+            this.leptinBox.Location = new System.Drawing.Point(656, 499);
+            this.leptinBox.Name = "leptinBox";
+            this.leptinBox.Size = new System.Drawing.Size(121, 23);
+            this.leptinBox.TabIndex = 103;
             // 
             // label48
             // 
             this.label48.AutoSize = true;
             this.label48.Location = new System.Drawing.Point(529, 502);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(121, 15);
+            this.label48.Size = new System.Drawing.Size(50, 15);
             this.label48.TabIndex = 102;
-            this.label48.Text = "Альдостерон, нг/мл:";
+            this.label48.Text = "Лептин:";
             // 
             // label49
             // 
@@ -944,19 +944,19 @@ namespace HAP
             this.label49.TabIndex = 104;
             this.label49.Text = "Адипонектин мкг/мл:";
             // 
-            // textBox37
+            // adiponektinBox
             // 
-            this.textBox37.Location = new System.Drawing.Point(922, 499);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(121, 23);
-            this.textBox37.TabIndex = 105;
+            this.adiponektinBox.Location = new System.Drawing.Point(922, 499);
+            this.adiponektinBox.Name = "adiponektinBox";
+            this.adiponektinBox.Size = new System.Drawing.Size(121, 23);
+            this.adiponektinBox.TabIndex = 105;
             // 
-            // textBox8
+            // alatBox
             // 
-            this.textBox8.Location = new System.Drawing.Point(402, 196);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(121, 23);
-            this.textBox8.TabIndex = 32;
+            this.alatBox.Location = new System.Drawing.Point(402, 196);
+            this.alatBox.Name = "alatBox";
+            this.alatBox.Size = new System.Drawing.Size(121, 23);
+            this.alatBox.TabIndex = 32;
             // 
             // textBox38
             // 
@@ -973,113 +973,114 @@ namespace HAP
             this.button1.TabIndex = 107;
             this.button1.Text = "Расчитать";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1312, 640);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox38);
-            this.Controls.Add(this.textBox37);
+            this.Controls.Add(this.adiponektinBox);
             this.Controls.Add(this.label49);
-            this.Controls.Add(this.textBox36);
+            this.Controls.Add(this.leptinBox);
             this.Controls.Add(this.label48);
-            this.Controls.Add(this.textBox35);
+            this.Controls.Add(this.aldesteronBox);
             this.Controls.Add(this.label47);
-            this.Controls.Add(this.textBox34);
+            this.Controls.Add(this.fnoBox);
             this.Controls.Add(this.label46);
-            this.Controls.Add(this.textBox33);
+            this.Controls.Add(this.kdrpg);
             this.Controls.Add(this.label45);
-            this.Controls.Add(this.textBox32);
+            this.Controls.Add(this.gamaBox);
             this.Controls.Add(this.label44);
-            this.Controls.Add(this.textBox31);
+            this.Controls.Add(this.il6Box);
             this.Controls.Add(this.label43);
-            this.Controls.Add(this.textBox30);
+            this.Controls.Add(this.il4Box);
             this.Controls.Add(this.label42);
-            this.Controls.Add(this.textBox29);
+            this.Controls.Add(this.il8Box);
             this.Controls.Add(this.label32);
-            this.Controls.Add(this.textBox28);
-            this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.textBox26);
-            this.Controls.Add(this.textBox25);
+            this.Controls.Add(this.il1Box);
+            this.Controls.Add(this.hcObchBox);
+            this.Controls.Add(this.alphaBox);
+            this.Controls.Add(this.t4Box);
             this.Controls.Add(this.label41);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.label39);
             this.Controls.Add(this.label38);
             this.Controls.Add(this.label37);
-            this.Controls.Add(this.comboBox7);
+            this.Controls.Add(this.depresBox);
             this.Controls.Add(this.label36);
-            this.Controls.Add(this.comboBox6);
+            this.Controls.Add(this.fkchnBox);
             this.Controls.Add(this.label35);
-            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.stHCNBox);
             this.Controls.Add(this.label34);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.ishemiaBox);
             this.Controls.Add(this.label33);
-            this.Controls.Add(this.textBox24);
+            this.Controls.Add(this.ttgBox);
             this.Controls.Add(this.label31);
-            this.Controls.Add(this.textBox23);
+            this.Controls.Add(this.fvBox);
             this.Controls.Add(this.label30);
-            this.Controls.Add(this.textBox22);
+            this.Controls.Add(this.tzslgBox);
             this.Controls.Add(this.label29);
-            this.Controls.Add(this.textBox21);
+            this.Controls.Add(this.tmpgBox);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.textBox20);
             this.Controls.Add(this.label27);
-            this.Controls.Add(this.textBox19);
+            this.Controls.Add(this.kdrlgBox);
             this.Controls.Add(this.label26);
-            this.Controls.Add(this.textBox18);
+            this.Controls.Add(this.nt18);
             this.Controls.Add(this.label25);
-            this.Controls.Add(this.textBox17);
+            this.Controls.Add(this.kcpBox);
             this.Controls.Add(this.label24);
-            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.skfBox);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.atBox);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.triglizBox);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.lpBox);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.lpnvBox);
             this.Controls.Add(this.label19);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.il10Box);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.creatineBox);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.asatBox);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.alatBox);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.bilBox);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.protBox);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.soeBox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.glukBox);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.leyBox);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.hbBox);
+            this.Controls.Add(this.smockBox);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.imtBox);
+            this.Controls.Add(this.sdBox);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.povtIMBox);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.IMBox);
+            this.Controls.Add(this.genBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.ageBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.otchestvoBox);
-            this.Controls.Add(this.SurnameBox);
+            this.Controls.Add(this.surBox);
+            this.Controls.Add(this.otchBox);
             this.Controls.Add(this.nameBox);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Расчет вероятности инфаркта";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1089,105 +1090,106 @@ namespace HAP
         #endregion
 
         private System.Windows.Forms.TextBox nameBox;
-        private System.Windows.Forms.TextBox SurnameBox;
-        private System.Windows.Forms.TextBox otchestvoBox;
+        private System.Windows.Forms.TextBox otchBox;
+        private System.Windows.Forms.TextBox surBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox ageBox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox IMBox;
+        private System.Windows.Forms.ComboBox genBox;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox povtIMBox;
+        private System.Windows.Forms.ComboBox sdBox;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox imtBox;
+        private System.Windows.Forms.ComboBox smockBox;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox hbBox;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox leyBox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox glukBox;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox soeBox;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox protBox;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox bilBox;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox asatBox;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox creatineBox;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox il10Box;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox lpnvBox;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox lpBox;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox triglizBox;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox atBox;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox skfBox;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox kcpBox;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox nt18;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox kdrlgBox;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox tmpgBox;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox tzslgBox;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.TextBox fvBox;
+        private System.Windows.Forms.TextBox ttgBox;
+        private System.Windows.Forms.ComboBox ishemiaBox;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox stHCNBox;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox fkchnBox;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox depresBox;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox t4Box;
+        private System.Windows.Forms.TextBox alphaBox;
+        private System.Windows.Forms.TextBox hcObchBox;
+        private System.Windows.Forms.TextBox il1Box;
+        private System.Windows.Forms.TextBox il8Box;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox il4Box;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox il6Box;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox gamaBox;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.TextBox textBox33;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox fnoBox;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.TextBox aldesteronBox;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox leptinBox;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox adiponektinBox;
+        private System.Windows.Forms.TextBox alatBox;
         private System.Windows.Forms.TextBox textBox38;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox kdrpg;
     }
 }
 
