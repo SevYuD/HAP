@@ -116,7 +116,7 @@ namespace HAP
             this.label43 = new System.Windows.Forms.Label();
             this.gamaBox = new System.Windows.Forms.TextBox();
             this.label44 = new System.Windows.Forms.Label();
-            this.kdrpg = new System.Windows.Forms.TextBox();
+            this.kdrpgBox = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
             this.fnoBox = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
@@ -127,8 +127,8 @@ namespace HAP
             this.label49 = new System.Windows.Forms.Label();
             this.adiponektinBox = new System.Windows.Forms.TextBox();
             this.alatBox = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lpvpBox = new System.Windows.Forms.TextBox();
+            this.saveButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // nameBox
@@ -871,12 +871,12 @@ namespace HAP
             this.label44.TabIndex = 94;
             this.label44.Text = "ИЛ-10, пг/мл:";
             // 
-            // kdrpg
+            // kdrpgBox
             // 
-            this.kdrpg.Location = new System.Drawing.Point(656, 557);
-            this.kdrpg.Name = "kdrpg";
-            this.kdrpg.Size = new System.Drawing.Size(121, 23);
-            this.kdrpg.TabIndex = 97;
+            this.kdrpgBox.Location = new System.Drawing.Point(656, 557);
+            this.kdrpgBox.Name = "kdrpgBox";
+            this.kdrpgBox.Size = new System.Drawing.Size(121, 23);
+            this.kdrpgBox.TabIndex = 97;
             // 
             // label45
             // 
@@ -958,30 +958,30 @@ namespace HAP
             this.alatBox.Size = new System.Drawing.Size(121, 23);
             this.alatBox.TabIndex = 32;
             // 
-            // textBox38
+            // lpvpBox
             // 
-            this.textBox38.Location = new System.Drawing.Point(922, 556);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(121, 23);
-            this.textBox38.TabIndex = 106;
+            this.lpvpBox.Location = new System.Drawing.Point(922, 556);
+            this.lpvpBox.Name = "lpvpBox";
+            this.lpvpBox.Size = new System.Drawing.Size(121, 23);
+            this.lpvpBox.TabIndex = 106;
             // 
-            // button1
+            // saveButton
             // 
-            this.button1.Location = new System.Drawing.Point(1170, 561);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 23);
-            this.button1.TabIndex = 107;
-            this.button1.Text = "Расчитать";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.saveButton.Location = new System.Drawing.Point(1170, 561);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(120, 23);
+            this.saveButton.TabIndex = 107;
+            this.saveButton.Text = "Расчитать";
+            this.saveButton.UseVisualStyleBackColor = true;
+            this.saveButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1312, 640);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox38);
+            this.Controls.Add(this.saveButton);
+            this.Controls.Add(this.lpvpBox);
             this.Controls.Add(this.adiponektinBox);
             this.Controls.Add(this.label49);
             this.Controls.Add(this.leptinBox);
@@ -990,7 +990,7 @@ namespace HAP
             this.Controls.Add(this.label47);
             this.Controls.Add(this.fnoBox);
             this.Controls.Add(this.label46);
-            this.Controls.Add(this.kdrpg);
+            this.Controls.Add(this.kdrpgBox);
             this.Controls.Add(this.label45);
             this.Controls.Add(this.gamaBox);
             this.Controls.Add(this.label44);
@@ -1187,9 +1187,9 @@ namespace HAP
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.TextBox adiponektinBox;
         private System.Windows.Forms.TextBox alatBox;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox kdrpg;
+        private System.Windows.Forms.TextBox lpvpBox;
+        private System.Windows.Forms.Button saveButton;
+        private System.Windows.Forms.TextBox kdrpgBox;
     }
 }
 
