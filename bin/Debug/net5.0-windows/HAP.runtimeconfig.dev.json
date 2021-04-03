@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\sevos\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\sevos\\.nuget\\packages"
+    ]
+  }
+}
