@@ -114,7 +114,7 @@ namespace HAP
        checkDouble(lpvpBox.Text, "ЛПВП") ||
        checkDouble(kdrpgBox.Text, "КДРПЖ"))
             {
-
+                
             }   
 
         }
@@ -130,5 +130,180 @@ namespace HAP
             else
                 return true;
         }
+
+
+        public void HAP(double depresion, double creatine, double kdrlg, double ishemia, double lp, double fv,
+            double aldesteron, double ttg, double bilirubin)
+        {
+            //Депрессия
+            double X1o; //Основная
+            double X1k; //Контрольная
+            //Креатин
+            double X2o;
+            double X2k;
+            //КДР ЛЖ
+            double X3o;
+            double X3k;
+            //Ишемия
+            double X4o;
+            double X4k;
+            //Размер ЛП
+            double X5o;
+            double X5k;
+            //ФВ ЛЖ
+            double X6o;
+            double X6k;
+            //Альдестерон
+            double X7o;
+            double X7k;
+            //ТТГ
+            double X8o;
+            double X8k;
+            //Билирубин
+            double X9o;
+            double X9k;
+
+            if (depresion == 1)
+            {
+                X1o = 0.003968;
+                X1k = 0.071429;
+            }
+            else
+            {
+                X1o = 0.051587;
+                X1k = 0.928571;
+            }
+
+            if(creatine <= 0.11)
+            {
+                X2o = 0.888889;
+                X2k = 0.928571;
+            }
+            else if (creatine <= 0.139)
+            {
+                X2o = 0.055556;
+                X2k = 0.042857;
+            }
+            else
+            {
+                X2o = 0.055556;
+                X2k = 0.028571;
+            }
+
+            if(kdrlg <= 4.9)
+            {
+                X3o = 0.444444;
+                X3k = 0.714286;
+            }
+            else if(kdrlg <= 5.9)
+            {
+                X3o = 0.388889;
+                X3k = 0.257143;
+            }
+            else
+            {
+                X3o = 0.166667;
+                X3k = 0.028571;
+            }
+
+            if(ishemia == 1)
+            {
+                X4o = 0.944444;
+                X4k = 0.828571;
+            }
+            else
+            {
+                X4o = 0.055556;
+                X4k = 0.171429;
+            }
+
+            if(lp <= 3.7)
+            {
+                X5o = 0.277778;
+                X5k = 0.571429;
+            }
+            else if(lp <= 4.1)
+            {
+                X5o = 0.277778;
+                X5k = 0.171429;
+            }
+            else
+            {
+                X5o = 0.444444;
+                X5k = 0.257143;
+            }    
+
+
+            if(fv <= 44)
+            {
+                X6o = 0.277778;
+                X6k = 0.1;
+            }
+            else if (fv  <= 54)
+            {
+                X6o = 0.222222;
+                X6k = 0.242857;
+            }
+            else
+            {
+                X6o = 0.5;
+                X6k = 0.657143;
+            }
+
+            if(aldesteron <= 100)
+            {
+                X7o = 0.184211;
+                X7k = 0.266667;
+            }
+            else if(aldesteron <= 200)
+            {
+                X7o = 0.276316;
+                X7k = 0.133333;
+            }
+            else if(aldesteron <= 300)
+            {
+                X7o = 0.171053;
+                X7k = 0.333333;
+            }
+            else
+            {
+                X7o = 0.236842;
+                X7k = 0.266667;
+            }
+
+            if(ttg <= 1.0)
+            {
+                X8o = 0.277778;
+                X8k = 0.571429;
+            }
+            else if(ttg <= 4)
+            {
+                X8o = 0.277778;
+                X8k = 0.171429;
+            }
+            else
+            {
+                X8o = 0.444444;
+                X8k = 0.257143;
+            }
+
+
+            if(bilirubin <= 11.9)
+            {
+                X9o = 0.833333;
+                X9k = 0.614286;
+            }
+            else if(bilirubin <= 17)
+            {
+                X9o = 0.111111;
+                X9k = 0.328571;
+            }
+            else
+            {
+                X9o = 0.055556;
+                X9k = 0.057143;
+            }
+        }
+
     }
 }
