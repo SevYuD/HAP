@@ -72,6 +72,51 @@ namespace HAP
             {
                 MessageBox.Show("Пустые поля!");
             }
+
+            if (checkDouble(nameBox.Text, "Имя") ||
+       checkDouble(otchBox.Text, "Отчество") ||
+       checkDouble(surBox.Text, "Фамилия")||
+       checkDouble(ageBox.Text, "Возраст") ||
+       checkDouble(imtBox.Text, "ИМТ") ||
+       checkDouble(hbBox.Text, "Hb") ||
+       checkDouble(leyBox.Text, "Лейкоциты") ||
+       checkDouble(glukBox.Text, "Глюкоза") ||
+       checkDouble(soeBox.Text, "СОЭ") ||
+       checkDouble(protBox.Text, "О. Белок") ||
+       checkDouble(bilBox.Text, "Билирубин") ||
+       checkDouble(asatBox.Text, "АСАТ") ||
+       checkDouble(creatineBox.Text, "Креатин") ||
+       checkDouble(lpnvBox.Text, "") ||
+       checkDouble(lpBox.Text, "ЛП") ||
+       checkDouble(triglizBox.Text, "Триглиц") ||
+       checkDouble(atBox.Text, "Инд. атерог.") ||
+       checkDouble(skfBox.Text, "СКФ") ||
+       checkDouble(kcpBox.Text, "КсР") ||
+       checkDouble(nt18.Text, "NT-proBNP") ||
+       checkDouble(kdrlgBox.Text, "КДРЛЖ") ||
+       checkDouble(tmpgBox.Text, "ТМПЖ") ||
+       checkDouble(tzslgBox.Text, "ТЗСЛЖ") ||
+       checkDouble(fvBox.Text, "ФВ") ||
+       checkDouble(ttgBox.Text, "ТТГ") ||
+       checkDouble(t4Box.Text, "Т4 своб.") ||
+       checkDouble(alphaBox.Text, "Альфа ИНФ") ||
+       checkDouble(hcObchBox.Text, "ХС Общий") ||
+       checkDouble(il1Box.Text, "ИЛ 1") ||
+       checkDouble(il8Box.Text, "ИЛ 8") ||
+       checkDouble(il4Box.Text, "ИЛ 4") ||
+       checkDouble(il6Box.Text, "ИЛ 6") ||
+       checkDouble(gamaBox.Text, "Гама ИНФ") ||
+       checkDouble(fnoBox.Text, "ФНО альфа") ||
+       checkDouble(aldesteronBox.Text, "Альдостерон") ||
+       checkDouble(leptinBox.Text, "Ленптин") ||
+       checkDouble(adiponektinBox.Text, "Адипонектин") ||
+       checkDouble(alatBox.Text, "АЛАТ") ||
+       checkDouble(lpvpBox.Text, "ЛПВП") ||
+       checkDouble(kdrpgBox.Text, "КДРПЖ"))
+            {
+
+            }   
+
         }
 
         public bool checkDouble(string str, string message)
