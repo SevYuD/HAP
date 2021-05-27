@@ -12,6 +12,7 @@ namespace HAP
 {
     public partial class MainForm : Form
     {
+        //Фориула находится в методе HAP, все остальное готово
         public MainForm()
         {
             InitializeComponent();
@@ -25,97 +26,37 @@ namespace HAP
             surBox.Text == "" ||
             ageBox.Text == "" ||
             genBox.SelectedIndex == -1 ||
-            povtIMBox.SelectedIndex == -1 ||
-            sdBox.SelectedIndex == -1 ||
-            imtBox.Text == "" ||
-            smockBox.SelectedIndex == -1 ||
-            hbBox.Text == "" ||
-            leyBox.Text == "" ||
-            glukBox.Text == "" ||
-            soeBox.Text == "" ||
-            protBox.Text == "" ||
             bilBox.Text == "" ||
-            asatBox.Text == "" ||
             creatineBox.Text == "" ||
-            lpnvBox.Text == "" ||
             lpBox.Text == "" ||
-            triglizBox.Text == "" ||
-            atBox.Text == "" ||
-            skfBox.Text == "" ||
-            kcpBox.Text == "" ||
-            nt18.Text == "" ||
             kdrlgBox.Text == "" ||
-            tmpgBox.Text == "" ||
-            tzslgBox.Text == "" ||
             fvBox.Text == "" ||
             ttgBox.Text == "" ||
             ishemiaBox.SelectedIndex == -1 ||
-            stHCNBox.SelectedIndex == -1 ||
-            fkchnBox.SelectedIndex == -1 ||
             depresBox.SelectedIndex == -1 ||
-            t4Box.Text == "" ||
-            alphaBox.Text == "" ||
-            hcObchBox.Text == "" ||
-            il1Box.Text == "" ||
-            il8Box.Text == "" ||
-            il4Box.Text == "" ||
-            il6Box.Text == "" ||
-            gamaBox.Text == "" ||
-            fnoBox.Text == "" ||
-            aldesteronBox.Text == "" ||
-            leptinBox.Text == "" ||
-            adiponektinBox.Text == "" ||
-            alatBox.Text == "" ||
-            lpvpBox.Text == "" ||
-            kdrpgBox.Text == ""
+            aldesteronBox.Text == ""
             )
             {
-                MessageBox.Show("Пустые поля!");
+                MessageBox.Show("Пустые обязательные поля!");
             }
-
-            if (checkDouble(nameBox.Text, "Имя") ||
-       checkDouble(otchBox.Text, "Отчество") ||
-       checkDouble(surBox.Text, "Фамилия")||
-       checkDouble(ageBox.Text, "Возраст") ||
-       checkDouble(imtBox.Text, "ИМТ") ||
-       checkDouble(hbBox.Text, "Hb") ||
-       checkDouble(leyBox.Text, "Лейкоциты") ||
-       checkDouble(glukBox.Text, "Глюкоза") ||
-       checkDouble(soeBox.Text, "СОЭ") ||
-       checkDouble(protBox.Text, "О. Белок") ||
-       checkDouble(bilBox.Text, "Билирубин") ||
-       checkDouble(asatBox.Text, "АСАТ") ||
-       checkDouble(creatineBox.Text, "Креатин") ||
-       checkDouble(lpnvBox.Text, "") ||
-       checkDouble(lpBox.Text, "ЛП") ||
-       checkDouble(triglizBox.Text, "Триглиц") ||
-       checkDouble(atBox.Text, "Инд. атерог.") ||
-       checkDouble(skfBox.Text, "СКФ") ||
-       checkDouble(kcpBox.Text, "КсР") ||
-       checkDouble(nt18.Text, "NT-proBNP") ||
-       checkDouble(kdrlgBox.Text, "КДРЛЖ") ||
-       checkDouble(tmpgBox.Text, "ТМПЖ") ||
-       checkDouble(tzslgBox.Text, "ТЗСЛЖ") ||
-       checkDouble(fvBox.Text, "ФВ") ||
-       checkDouble(ttgBox.Text, "ТТГ") ||
-       checkDouble(t4Box.Text, "Т4 своб.") ||
-       checkDouble(alphaBox.Text, "Альфа ИНФ") ||
-       checkDouble(hcObchBox.Text, "ХС Общий") ||
-       checkDouble(il1Box.Text, "ИЛ 1") ||
-       checkDouble(il8Box.Text, "ИЛ 8") ||
-       checkDouble(il4Box.Text, "ИЛ 4") ||
-       checkDouble(il6Box.Text, "ИЛ 6") ||
-       checkDouble(gamaBox.Text, "Гама ИНФ") ||
-       checkDouble(fnoBox.Text, "ФНО альфа") ||
-       checkDouble(aldesteronBox.Text, "Альдостерон") ||
-       checkDouble(leptinBox.Text, "Ленптин") ||
-       checkDouble(adiponektinBox.Text, "Адипонектин") ||
-       checkDouble(alatBox.Text, "АЛАТ") ||
-       checkDouble(lpvpBox.Text, "ЛПВП") ||
-       checkDouble(kdrpgBox.Text, "КДРПЖ"))
+            else
             {
-                
-            }   
+
+                if (
+           checkDouble(ageBox.Text, "Возраст") ||       
+           checkDouble(bilBox.Text, "Билирубин") ||          
+           checkDouble(creatineBox.Text, "Креатин") ||
+           checkDouble(lpBox.Text, "ЛП") ||
+           checkDouble(kdrlgBox.Text, "КДРЛЖ") ||        
+           checkDouble(fvBox.Text, "ФВ") ||
+           checkDouble(ttgBox.Text, "ТТГ") ||         
+           checkDouble(aldesteronBox.Text, "Альдостерон"))
+                {
+                    Сalculation(depresBox.SelectedIndex, Double.Parse(creatineBox.Text), Double.Parse(kdrlgBox.Text),
+                        ishemiaBox.SelectedIndex, Double.Parse(lpBox.Text), Double.Parse(fvBox.Text),
+                        Double.Parse(aldesteronBox.Text), Double.Parse(ttgBox.Text), Double.Parse(bilBox.Text));
+                }
+            }
 
         }
 
@@ -132,7 +73,7 @@ namespace HAP
         }
 
 
-        public void HAP(double depresion, double creatine, double kdrlg, double ishemia, double lp, double fv,
+        public void Сalculation(int depresion, double creatine, double kdrlg, int ishemia, double lp, double fv,
             double aldesteron, double ttg, double bilirubin)
         {
             //Депрессия
@@ -165,145 +106,170 @@ namespace HAP
 
             if (depresion == 1)
             {
-                X1o = 0.003968;
-                X1k = 0.071429;
+                X1o = 0.003;
+                X1k = 0.071;
             }
             else
             {
-                X1o = 0.051587;
-                X1k = 0.928571;
+                X1o = 0.051;
+                X1k = 0.928;
             }
 
             if(creatine <= 0.11)
             {
-                X2o = 0.888889;
-                X2k = 0.928571;
+                X2o = 0.888;
+                X2k = 0.928;
             }
             else if (creatine <= 0.139)
             {
-                X2o = 0.055556;
-                X2k = 0.042857;
+                X2o = 0.055;
+                X2k = 0.042;
             }
             else
             {
-                X2o = 0.055556;
-                X2k = 0.028571;
+                X2o = 0.055;
+                X2k = 0.028;
             }
 
             if(kdrlg <= 4.9)
             {
-                X3o = 0.444444;
-                X3k = 0.714286;
+                X3o = 0.444;
+                X3k = 0.714;
             }
             else if(kdrlg <= 5.9)
             {
-                X3o = 0.388889;
-                X3k = 0.257143;
+                X3o = 0.388;
+                X3k = 0.257;
             }
             else
             {
-                X3o = 0.166667;
-                X3k = 0.028571;
+                X3o = 0.166;
+                X3k = 0.028;
             }
 
             if(ishemia == 1)
             {
-                X4o = 0.944444;
-                X4k = 0.828571;
+                X4o = 0.944;
+                X4k = 0.828;
             }
             else
             {
-                X4o = 0.055556;
-                X4k = 0.171429;
+                X4o = 0.055;
+                X4k = 0.171;
             }
 
             if(lp <= 3.7)
             {
-                X5o = 0.277778;
-                X5k = 0.571429;
+                X5o = 0.277;
+                X5k = 0.571;
             }
             else if(lp <= 4.1)
             {
-                X5o = 0.277778;
-                X5k = 0.171429;
+                X5o = 0.277;
+                X5k = 0.171;
             }
             else
             {
-                X5o = 0.444444;
-                X5k = 0.257143;
+                X5o = 0.444;
+                X5k = 0.257;
             }    
 
 
             if(fv <= 44)
             {
-                X6o = 0.277778;
+                X6o = 0.277;
                 X6k = 0.1;
             }
             else if (fv  <= 54)
             {
-                X6o = 0.222222;
-                X6k = 0.242857;
+                X6o = 0.222;
+                X6k = 0.242;
             }
             else
             {
                 X6o = 0.5;
-                X6k = 0.657143;
+                X6k = 0.657;
             }
 
             if(aldesteron <= 100)
             {
-                X7o = 0.184211;
-                X7k = 0.266667;
+                X7o = 0.184;
+                X7k = 0.266;
             }
             else if(aldesteron <= 200)
             {
-                X7o = 0.276316;
-                X7k = 0.133333;
+                X7o = 0.276;
+                X7k = 0.133;
             }
             else if(aldesteron <= 300)
             {
-                X7o = 0.171053;
-                X7k = 0.333333;
+                X7o = 0.171;
+                X7k = 0.333;
             }
             else
             {
-                X7o = 0.236842;
-                X7k = 0.266667;
+                X7o = 0.236;
+                X7k = 0.266;
             }
 
             if(ttg <= 1.0)
             {
-                X8o = 0.277778;
-                X8k = 0.571429;
+                X8o = 0.277;
+                X8k = 0.571;
             }
             else if(ttg <= 4)
             {
-                X8o = 0.277778;
-                X8k = 0.171429;
+                X8o = 0.277;
+                X8k = 0.171;
             }
             else
             {
-                X8o = 0.444444;
-                X8k = 0.257143;
+                X8o = 0.444;
+                X8k = 0.257;
             }
 
 
             if(bilirubin <= 11.9)
             {
-                X9o = 0.833333;
-                X9k = 0.614286;
+                X9o = 0.833;
+                X9k = 0.614;
             }
             else if(bilirubin <= 17)
             {
-                X9o = 0.111111;
-                X9k = 0.328571;
+                X9o = 0.111;
+                X9k = 0.328;
             }
             else
             {
-                X9o = 0.055556;
-                X9k = 0.057143;
+                X9o = 0.055;
+                X9k = 0.057;
             }
+
+            decimal osn = Convert.ToDecimal(0.205 * X1o * X2o * X3o * X4o * X5o * X6o * X7o * X8o * X9o);
+            decimal contrl = Convert.ToDecimal(0.795*X1k * X2k * X3k * X4k * X5k * X6k * X7k * X8k * X9k);
+            decimal hap = osn / (osn+contrl);
+
+            MessageBox.Show("Вероятность инфаркта = " + hap);
         }
 
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aldesteronBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void depresBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
